@@ -39,6 +39,8 @@ var imageMap = {
 	"/images/buttons/nuke.gif": "nuke.svg",
 	"/images/buttons/report.gif": "report.svg",
 	"/images/buttons/unnuke.gif": "unnuke.svg",
+	"/images/buttons/collapse_thead.gif": "collapse_thead.svg",
+	"/images/buttons/collapse_thead_collapsed.gif": "collapse_thead_collapsed.svg",
 };
 Array.from(document.getElementsByTagName('img'))
 	.filter(i => i.src.substr(0, 30) === "https://forums.alliedmods.net/")
