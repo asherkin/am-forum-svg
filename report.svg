@@ -10,7 +10,7 @@
   </defs>
   <rect width="15" height="14" x=".5" y=".5" fill="#fff" ry="3" rx="3"/>
   <rect width="15" height="14" x=".5" y=".5" fill="url(#b)" rx="3" ry="3"/>
-  <rect width="15" height="14" x=".5" y=".5" fill="none" stroke="#1879aa" rx="3" ry="3"/>
+  <rect width="15" height="14" x=".5" y=".5" fill="none" stroke="#069" rx="3" ry="3"/>
   <g fill="#ff8915">
     <rect width="2" height="6" x="7" y="3" ry=".25" rx=".25"/>
     <rect width="2" height="2" x="7" y="10" ry=".25" rx=".25"/>

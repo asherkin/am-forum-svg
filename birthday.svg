@@ -8,7 +8,7 @@
     </linearGradient>
     <linearGradient id="b" x1="7.5" x2="17.5" y1="6.5" y2="28.5" xlink:href="#a" gradientUnits="userSpaceOnUse"/>
   </defs>
-  <circle cx="12.5" cy="17.5" r="12" fill="url(#b)" stroke="#1879aa"/>
+  <circle cx="12.5" cy="17.5" r="12" fill="url(#b)" stroke="#069"/>
   <ellipse cx="14.5" cy="18.5" fill="#2d679d" rx="9" ry="5" transform="rotate(5)"/>
   <path fill="none" stroke="#000" d="M11.5 9.5L8 13v8l11-2v-6z" stroke-linejoin="round"/>
   <path fill="#352121" d="M8 13v8l11-2v-6z"/>

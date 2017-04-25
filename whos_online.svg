@@ -13,7 +13,7 @@
     <linearGradient id="c" x1="7.5" x2="17.5" y1="1.5" y2="23.5" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
     <linearGradient id="d" x1="16" x2="19" y1="8.5" y2="5.5" xlink:href="#b" gradientUnits="userSpaceOnUse"/>
   </defs>
-  <circle cx="12.5" cy="12.5" r="12" fill="url(#c)" stroke="#1879aa"/>
+  <circle cx="12.5" cy="12.5" r="12" fill="url(#c)" stroke="#069"/>
   <g fill="none" stroke="#000" stroke-linejoin="round">
     <path d="M16 8.5h-3m0 3l4 3"/>
     <path stroke="url(#d)" d="M19 5.5l-9 9"/>

@@ -13,6 +13,6 @@
     <linearGradient gradientUnits="userSpaceOnUse" y2="23.5" x2="17.5" y1="1.5" x1="7.5" id="c" xlink:href="#a"/>
     <linearGradient gradientUnits="userSpaceOnUse" y2="5.5" x2="12.5" y1="18.5" x1="12.5" id="d" xlink:href="#b"/>
   </defs>
-  <circle r="12" cx="12.5" cy="12.5" fill="url(#c)" stroke="#1879aa"/>
+  <circle r="12" cx="12.5" cy="12.5" fill="url(#c)" stroke="#069"/>
   <path d="M10.5 5.5l-5 11 12 2 1-9.5-2-2.5z" fill="url(#d)" stroke="#404040" stroke-linejoin="round"/>
 </svg>
