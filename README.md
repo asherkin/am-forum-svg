@@ -2,11 +2,12 @@
 
 **TODO**
 ```
-	"/images/btn_donate_SM.gif"
-	"/images/buttons/collapse_thead.gif"
-	"/images/misc/menu_open.gif"
-	"/images/statusicon/subforum_new.gif"
-	"/images/statusicon/subforum_old.gif"
+"/images/btn_donate_SM.gif"
+```
+
+**Style Changes**
+```
+Add `margin: 0 10px;` to left forum icons on home page.
 ```
 
 **Get All Images**
@@ -41,6 +42,9 @@ var imageMap = {
 	"/images/buttons/unnuke.gif": "unnuke.svg",
 	"/images/buttons/collapse_thead.gif": "collapse_thead.svg",
 	"/images/buttons/collapse_thead_collapsed.gif": "collapse_thead_collapsed.svg",
+	"/images/statusicon/subforum_new.gif": "subforum_new.svg",
+	"/images/statusicon/subforum_old.gif": "subforum_old.svg",
+	"/images/misc/menu_open.gif": "menu_open.svg",
 };
 Array.from(document.getElementsByTagName('img'))
 	.filter(i => i.src.substr(0, 30) === "https://forums.alliedmods.net/")
