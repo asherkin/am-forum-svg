@@ -7,7 +7,10 @@
 
 **Style Changes**
 ```
-Add `margin: 0 10px;` to left forum icons on home page.
+Add `margin: 0 10px;` to left forum icons on forum index.
+.tcat .inlineimg { vertical-align: text-bottom; }
+Add `vertical-align: baseline;` to lastpost image on right of forum index.
+Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
 ```
 
 **Get All Images**
@@ -45,6 +48,9 @@ var imageMap = {
 	"/images/statusicon/subforum_new.gif": "subforum_new.svg",
 	"/images/statusicon/subforum_old.gif": "subforum_old.svg",
 	"/images/misc/menu_open.gif": "menu_open.svg",
+	"/images/statusicon/post_old.gif": "post_old.svg",
+	"/images/statusicon/post_new.gif": "post_new.svg",
+	"/images/buttons/firstnew.gif": "firstnew.svg",
 };
 Array.from(document.getElementsByTagName('img'))
 	.filter(i => i.src.substr(0, 30) === "https://forums.alliedmods.net/")
