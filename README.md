@@ -2,7 +2,20 @@
 
 **TODO**
 ```
-"/images/btn_donate_SM.gif"
+	"/clear.gif": "",
+ 	"/images/btn_donate_SM.gif": "",
+ 	"/images/buttons/newthread.gif": "",
+ 	"/images/buttons/sortasc.gif": "",
+ 	"/images/misc/multipage.gif": "",
+ 	"/images/misc/paperclip.gif": "",
+ 	"/images/misc/sticky.gif": "",
+ 	"/images/misc/subscribed.gif": "",
+ 	"/images/misc/trashcan_small.gif": "",
+ 	"/images/statusicon/thread_dot.gif": "",
+ 	"/images/statusicon/thread_dot_hot_lock.gif": "",
+ 	"/images/statusicon/thread_hot_lock.gif": "",
+ 	"/images/statusicon/thread_lock.gif": "",
+ 	"/images/statusicon/thread_lock_new.gif": "",
 ```
 
 **Style Changes**
@@ -20,7 +33,8 @@ Array.from(document.getElementsByTagName('img'))
 	.filter(s => s.substr(0, 30) === 'https://forums.alliedmods.net/')
 	.map(s => s.substr(29))
 	.filter((s, i, a) => a.indexOf(s) === i)
-	.sort();
+	.sort()
+	.forEach(s => console.log("\t\"" + s + "\": \"\","));
 ```
 
 **Image Mapping**
@@ -51,6 +65,10 @@ var imageMap = {
 	"/images/statusicon/post_old.gif": "post_old.svg",
 	"/images/statusicon/post_new.gif": "post_new.svg",
 	"/images/buttons/firstnew.gif": "firstnew.svg",
+ 	"/images/statusicon/thread.gif": "thread.svg",
+ 	"/images/statusicon/thread_new.gif": "thread_new.svg",
+ 	"/images/statusicon/thread_hot.gif": "thread_hot.svg",
+ 	"/images/statusicon/thread_hot_new.gif": "thread_hot_new.svg",
 };
 Array.from(document.getElementsByTagName('img'))
 	.filter(i => i.src.substr(0, 30) === "https://forums.alliedmods.net/")
