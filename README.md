@@ -14,8 +14,6 @@
  	"/images/statusicon/thread_dot.gif": "",
  	"/images/statusicon/thread_dot_hot_lock.gif": "",
  	"/images/statusicon/thread_hot_lock.gif": "",
- 	"/images/statusicon/thread_lock.gif": "",
- 	"/images/statusicon/thread_lock_new.gif": "",
 ```
 
 **Style Changes**
@@ -34,7 +32,7 @@ Array.from(document.getElementsByTagName('img'))
 	.map(s => s.substr(29))
 	.filter((s, i, a) => a.indexOf(s) === i)
 	.sort()
-	.forEach(s => console.log("\t\"" + s + "\": \"\","));
+	.forEach(s => console.log("\t\"" + s + "\": \".svg\","));
 ```
 
 **Image Mapping**
@@ -69,6 +67,8 @@ var imageMap = {
  	"/images/statusicon/thread_new.gif": "thread_new.svg",
  	"/images/statusicon/thread_hot.gif": "thread_hot.svg",
  	"/images/statusicon/thread_hot_new.gif": "thread_hot_new.svg",
+ 	"/images/statusicon/thread_lock.gif": "thread_lock.svg",
+ 	"/images/statusicon/thread_lock_new.gif": "thread_lock_new.svg",
 };
 Array.from(document.getElementsByTagName('img'))
 	.filter(i => i.src.substr(0, 30) === "https://forums.alliedmods.net/")
