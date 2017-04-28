@@ -5,7 +5,6 @@
 	"/clear.gif": "",
  	"/images/btn_donate_SM.gif": "",
  	"/images/buttons/newthread.gif": "",
- 	"/images/buttons/sortasc.gif": "",
  	"/images/misc/multipage.gif": "",
  	"/images/misc/paperclip.gif": "",
  	"/images/misc/sticky.gif": "",
@@ -74,6 +73,8 @@ var imageMap = {
 	"/images/statusicon/thread_moved.gif": "thread_moved.svg",
 	"/images/statusicon/thread_moved_new.gif": "thread_moved_new.svg",
  	"/images/statusicon/thread_dot_lock.gif": "thread_dot_lock.svg",
+ 	"/images/buttons/sortasc.gif": "sortasc.svg",
+ 	"/images/buttons/sortdesc.gif": "sortdesc.svg",
 };
 Array.from(document.getElementsByTagName('img'))
 	.filter(i => i.src.substr(0, 30) === "https://forums.alliedmods.net/")
