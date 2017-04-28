@@ -31,6 +31,6 @@
     }
   </style>
   <circle cx="9.5" cy="9.5" r="9" fill="url(#c)" stroke="#069"/>
-  <path if="e" fill="#f7c088" stroke="#404040" d="M8.5 4.5l-3.5 8 8 1 .5-6-1.5-2z" stroke-linejoin="round"/>
+  <path id="e" fill="#f7c088" stroke="#404040" d="M8.5 4.5l-3.5 8 8 1 .5-6-1.5-2z" stroke-linejoin="round"/>
   <circle cx="3" cy="3" r="2.75" fill="url(#d)" stroke="#404040" stroke-width=".5"/>
 </svg>
