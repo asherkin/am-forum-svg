@@ -73,6 +73,7 @@ var imageMap = {
  	"/images/statusicon/thread_dot_hot_lock.gif": "thread_dot_hot_lock.svg",
 	"/images/statusicon/thread_moved.gif": "thread_moved.svg",
 	"/images/statusicon/thread_moved_new.gif": "thread_moved_new.svg",
+ 	"/images/statusicon/thread_dot_lock.gif": "thread_dot_lock.svg",
 };
 Array.from(document.getElementsByTagName('img'))
 	.filter(i => i.src.substr(0, 30) === "https://forums.alliedmods.net/")
