@@ -5,8 +5,6 @@
 	"/clear.gif": "",
  	"/images/btn_donate_SM.gif": "",
  	"/images/buttons/newthread.gif": "",
- 	"/images/misc/multipage.gif": "",
- 	"/images/misc/sticky.gif": "",
 ```
 
 **Style Changes**
@@ -15,6 +13,7 @@ Add `margin: 0 10px;` to left forum icons on forum index.
 .tcat .inlineimg { vertical-align: text-bottom; }
 Add `vertical-align: baseline;` to lastpost image on right of forum index.
 Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
+multipage.svg = vertical-align: text-bottom
 ```
 
 **Get All Images**
@@ -47,8 +46,10 @@ var imageMap = {
 	"/images/misc/am-banner.png": "am-banner.svg",
 	"/images/misc/birthday.gif": "birthday.svg",
 	"/images/misc/menu_open.gif": "menu_open.svg",
+ 	"/images/misc/multipage.gif": "multipage.svg",
  	"/images/misc/paperclip.gif": "paperclip.svg",
 	"/images/misc/stats.gif": "stats.svg",
+ 	"/images/misc/sticky.gif": "sticky.svg",
  	"/images/misc/subscribed.gif": "subscribed.svg",
  	"/images/misc/trashcan_small.gif": "trashcan_small.svg",
 	"/images/misc/whos_online.gif": "whos_online.svg",
