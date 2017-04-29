@@ -7,8 +7,6 @@
  	"/images/buttons/newthread.gif": "",
 	"/images/buttons/collapse_alt.gif": ".svg",
 	"/images/misc/calendar_popup.png": ".svg",
-	"/images/statusicon/pm_forwarded.gif": "pm_forwarded.svg",
-	"/images/statusicon/pm_replied.gif": "pm_replied.svg",
 ```
 
 **Style Changes**
@@ -67,8 +65,10 @@ var imageMap = {
 	"/images/statusicon/forum_link.gif": "forum_link.svg",
 	"/images/statusicon/forum_new.gif": "forum_new.svg",
 	"/images/statusicon/forum_old.gif": "forum_old.svg",
+	"/images/statusicon/pm_forwarded.gif": "pm_forwarded.svg",
 	"/images/statusicon/pm_new.gif": "pm_new.svg",
 	"/images/statusicon/pm_old.gif": "pm_old.svg",
+	"/images/statusicon/pm_replied.gif": "pm_replied.svg",
 	"/images/statusicon/post_new.gif": "post_new.svg",
 	"/images/statusicon/post_old.gif": "post_old.svg",
 	"/images/statusicon/subforum_new.gif": "subforum_new.svg",
