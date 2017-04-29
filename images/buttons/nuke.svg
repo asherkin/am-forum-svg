@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="15" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="a">
+      <stop offset="0" stop-opacity="0"/>
+      <stop offset=".8" stop-opacity="0"/>
+      <stop offset="1" stop-opacity=".15"/>
+    </linearGradient>
+    <radialGradient id="b" cx="-.5" cy="-1" r="10.5" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 1.238 -1.7143 0 -1.214 1.318)" xlink:href="#a"/>
+  </defs>
+  <rect width="15" height="14" x=".5" y=".5" fill="#fff" ry="3" rx="3"/>
+  <rect width="15" height="14" x=".5" y=".5" fill="url(#b)" rx="3" ry="3"/>
+  <rect width="15" height="14" x=".5" y=".5" fill="none" stroke="#069" rx="3" ry="3"/>
+  <g fill="#bd3030">
+    <path d="M6 2v3.5H2.5zm7.5 3.5H10V2zM6 13V9.5H2.5zm4-3.5V13l3.5-3.5z"/>
+    <circle cx="8" cy="7.5" r="1.5"/>
+  </g>
+</svg>

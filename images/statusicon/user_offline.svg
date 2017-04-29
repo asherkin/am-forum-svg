@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#f7f7f7"/>
+      <stop offset=".3" stop-color="#c3c3c3"/>
+      <stop offset=".55" stop-color="#b3b3b3"/>
+      <stop offset="1" stop-color="#696969"/>
+    </linearGradient>
+    <radialGradient id="b" cx="4.25" cy="7.75" r="5" gradientTransform="matrix(.9 .9 -1.07556 1.07556 10.868 -6.568)" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
+  </defs>
+  <circle cx="7" cy="7" r="5" fill="url(#b)"/>
+</svg>
