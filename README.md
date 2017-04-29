@@ -5,19 +5,18 @@
 	"/clear.gif": "",
  	"/images/btn_donate_SM.gif": "",
  	"/images/buttons/newthread.gif": "",
-	"/images/buttons/collapse_alt.gif": ".svg",
 	"/images/misc/calendar_popup.png": ".svg",
 ```
 
 **Style Changes**
 ```
 Add `margin: 0 10px;` to left forum icons on forum index.
-.tcat .inlineimg { vertical-align: text-bottom; }
+.tcat .inlineimg { vertical-align: text-bottom; } AND the collapse_alt ones on PM page.
 Add `vertical-align: baseline;` to lastpost image on right of forum index.
 Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
 multipage.svg = vertical-align: text-bottom
-add 1px top margin to thread rating icons on thread list
-remove inlineimg class from #threadrating_options
+add 1px top margin to thread rating icons on thread list.
+remove inlineimg class from #threadrating_options.
 ```
 
 **Get All Images**
@@ -34,6 +33,8 @@ Array.from(document.getElementsByTagName('img'))
 **Image Mapping**
 ```
 var imageMap = {
+	"/images/buttons/collapse_alt.gif": "collapse_alt.svg",
+	"/images/buttons/collapse_alt_collapsed.gif": "collapse_alt_collapsed.svg",
 	"/images/buttons/collapse_tcat.gif": "collapse_tcat.svg",
 	"/images/buttons/collapse_tcat_collapsed.gif": "collapse_tcat_collapsed.svg",
 	"/images/buttons/collapse_thead.gif": "collapse_thead.svg",
