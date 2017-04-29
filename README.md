@@ -5,7 +5,6 @@
 	"/clear.gif": "",
  	"/images/btn_donate_SM.gif": "",
  	"/images/buttons/newthread.gif": "",
-	"/images/misc/calendar_popup.png": ".svg",
 ```
 
 **Style Changes**
@@ -17,6 +16,7 @@ Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
 multipage.svg = vertical-align: text-bottom
 add 1px top margin to thread rating icons on thread list.
 remove inlineimg class from #threadrating_options.
+Add space between input box and calendar_popup.svg.
 ```
 
 **Get All Images**
@@ -50,6 +50,7 @@ var imageMap = {
 	"/images/buttons/unnuke.gif": "unnuke.svg",
 	"/images/misc/am-banner.png": "am-banner.svg",
 	"/images/misc/birthday.gif": "birthday.svg",
+	"/images/misc/calendar_popup.png": "calendar_popup.svg",
 	"/images/misc/menu_open.gif": "menu_open.svg",
  	"/images/misc/multipage.gif": "multipage.svg",
  	"/images/misc/paperclip.gif": "paperclip.svg",
