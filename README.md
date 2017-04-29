@@ -5,6 +5,10 @@
 	"/clear.gif": "",
  	"/images/btn_donate_SM.gif": "",
  	"/images/buttons/newthread.gif": "",
+	"/images/buttons/collapse_alt.gif": ".svg",
+	"/images/misc/calendar_popup.png": ".svg",
+	"/images/statusicon/pm_forwarded.gif": "pm_forwarded.svg",
+	"/images/statusicon/pm_replied.gif": "pm_replied.svg",
 ```
 
 **Style Changes**
@@ -14,6 +18,8 @@ Add `margin: 0 10px;` to left forum icons on forum index.
 Add `vertical-align: baseline;` to lastpost image on right of forum index.
 Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
 multipage.svg = vertical-align: text-bottom
+add 1px top margin to thread rating icons on thread list
+remove inlineimg class from #threadrating_options
 ```
 
 **Get All Images**
@@ -61,6 +67,8 @@ var imageMap = {
 	"/images/statusicon/forum_link.gif": "forum_link.svg",
 	"/images/statusicon/forum_new.gif": "forum_new.svg",
 	"/images/statusicon/forum_old.gif": "forum_old.svg",
+	"/images/statusicon/pm_new.gif": "pm_new.svg",
+	"/images/statusicon/pm_old.gif": "pm_old.svg",
 	"/images/statusicon/post_new.gif": "post_new.svg",
 	"/images/statusicon/post_old.gif": "post_old.svg",
 	"/images/statusicon/subforum_new.gif": "subforum_new.svg",
