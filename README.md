@@ -6,8 +6,7 @@
 	"/images/btn_donate_SM.gif": "/images/btn_donate_SM.svg",
 	"/images/buttons/newthread.gif": "/images/buttons/newthread.svg",
 
-statusicon/user_invisible
-misc/wol_error
+statusicon/wol_error
 misc/yellowcard_small
 misc/yellowcard
 misc/redcard_small
@@ -144,6 +143,7 @@ var imageMap = {
 	"/images/statusicon/thread_moved.gif": "/images/statusicon/thread_moved.svg",
 	"/images/statusicon/thread_moved_new.gif": "/images/statusicon/thread_moved_new.svg",
  	"/images/statusicon/thread_new.gif": "/images/statusicon/thread_new.svg",
+	"/images/statusicon/user_invisible.gif": "/images/statusicon/user_invisible.svg",
 	"/images/statusicon/user_offline.gif": "/images/statusicon/user_offline.svg",
 	"/images/statusicon/user_online.gif": "/images/statusicon/user_online.svg",
 };
