@@ -86,6 +86,8 @@ Array.from(document.getElementsByTagName("img"))
 var imageMap = {
 	"/images/buttons/collapse_alt.gif": "/images/buttons/collapse_alt.svg",
 	"/images/buttons/collapse_alt_collapsed.gif": "/images/buttons/collapse_alt_collapsed.svg",
+	"/images/buttons/collapse_generic.gif": "/images/buttons/collapse_generic.svg",
+	"/images/buttons/collapse_generic_collapsed.gif": "/images/buttons/collapse_generic_collapsed.svg",
 	"/images/buttons/collapse_tcat.gif": "/images/buttons/collapse_tcat.svg",
 	"/images/buttons/collapse_tcat_collapsed.gif": "/images/buttons/collapse_tcat_collapsed.svg",
 	"/images/buttons/collapse_thead.gif": "/images/buttons/collapse_thead.svg",
