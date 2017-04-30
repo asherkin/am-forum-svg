@@ -5,6 +5,59 @@
 	"/clear.gif": "/clear.svg",
 	"/images/btn_donate_SM.gif": "/images/btn_donate_SM.svg",
 	"/images/buttons/newthread.gif": "/images/buttons/newthread.svg",
+
+buttons/collapse_generic
+buttons/collapse_generic_collapsed
+
+statusicon/user_invisible
+misc/wol_error
+misc/yellowcard_small
+misc/yellowcard
+misc/redcard_small
+misc/redcard
+misc/trashcan
+misc/moderated
+misc/moderated_small
+misc/expires
+statusicon/announcement_*
+misc/menu_open_usercss
+
+buttons/subscribe
+buttons/viewpost
+misc/calendar_icon
+misc/birthday_small
+misc/subscribed_event
+misc/calendar
+misc/progress
+misc/lightbox_progress
+buttons/sendtofriend
+button/email
+button/sendpm
+button/home
+button/find
+misc/im_*
+misc/11x11progress
+poll/*
+buttons/reputation
+buttons/edit
+buttons/forward
+buttons/reply_small*
+buttons/multiquote*
+buttons/quickreply
+gradients/gradient_tcat
+reputation?/reputation_*
+buttons/threadclosed
+buttons/newthread
+buttons/reply
+buttons/printer
+buttons/addpoll
+buttons/mode_*
+misc/tree_*
+misc/question_icon
+statusicon/wol_*
+misc/userfield_edit
+
+cross.png and tick.png used for registration errors, hardcoded into PHP
 ```
 
 **Style Changes**
@@ -13,9 +66,6 @@ Add `margin: 0 10px;` to left forum icons on forum index.
 .tcat .inlineimg { vertical-align: text-bottom; } AND the collapse_alt ones on PM page.
 Add `vertical-align: baseline;` to lastpost image on right of forum index.
 Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
-multipage.svg = vertical-align: text-bottom
-add 1px top margin to thread rating icons on thread list.
-remove inlineimg class from #threadrating_options.
 Add space between input box and calendar_popup.svg.
 ```
 
@@ -74,6 +124,7 @@ var imageMap = {
 	"/images/statusicon/pm_replied.gif": "/images/statusicon/pm_replied.svg",
 	"/images/statusicon/post_new.gif": "/images/statusicon/post_new.svg",
 	"/images/statusicon/post_old.gif": "/images/statusicon/post_old.svg",
+	"/images/statusicon/subforum_link.gif": "/images/statusicon/subforum_link.svg",
 	"/images/statusicon/subforum_new.gif": "/images/statusicon/subforum_new.svg",
 	"/images/statusicon/subforum_old.gif": "/images/statusicon/subforum_old.svg",
  	"/images/statusicon/thread.gif": "/images/statusicon/thread.svg",

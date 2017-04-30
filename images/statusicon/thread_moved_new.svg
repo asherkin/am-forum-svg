@@ -8,5 +8,5 @@
     <linearGradient id="b" x1="4.5" x2="14.5" y1="-2.5" y2="20.5" gradientUnits="userSpaceOnUse" xlink:href="#a"/>
   </defs>
   <circle cx="9.5" cy="9.5" r="9" fill="url(#b)" stroke="#069"/>
-  <path fill="#f7c088" stroke="#000" d="M4.5 5.5v6h7v2l4-4-4-4v2H8v-2z" stroke-linejoin="round"/>
+  <path fill="#f7c088" stroke="#404040" d="M4.5 5.5v6h7v2l4-4-4-4v2H8v-2z" stroke-linejoin="round"/>
 </svg>
