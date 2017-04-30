@@ -6,9 +6,6 @@
 	"/images/btn_donate_SM.gif": "/images/btn_donate_SM.svg",
 	"/images/buttons/newthread.gif": "/images/buttons/newthread.svg",
 
-buttons/collapse_generic
-buttons/collapse_generic_collapsed
-
 statusicon/user_invisible
 misc/wol_error
 misc/yellowcard_small
@@ -20,7 +17,6 @@ misc/moderated
 misc/moderated_small
 misc/expires
 statusicon/announcement_*
-misc/menu_open_usercss
 
 buttons/subscribe
 buttons/viewpost
@@ -105,6 +101,7 @@ var imageMap = {
 	"/images/misc/birthday.gif": "/images/misc/birthday.svg",
 	"/images/misc/calendar_popup.png": "/images/misc/calendar_popup.svg",
 	"/images/misc/menu_open.gif": "/images/misc/menu_open.svg",
+	"/images/misc/menu_open_usercss.gif": "/images/misc/menu_open_usercss.svg",
  	"/images/misc/multipage.gif": "/images/misc/multipage.svg",
  	"/images/misc/paperclip.gif": "/images/misc/paperclip.svg",
 	"/images/misc/stats.gif": "/images/misc/stats.svg",
