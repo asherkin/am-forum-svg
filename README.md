@@ -2,10 +2,10 @@
 
 **TODO**
 ```
-	"/clear.gif": "/clear.svg",
-	"/images/btn_donate_SM.gif": "/images/btn_donate_SM.svg",
-	"/images/buttons/newthread.gif": "/images/buttons/newthread.svg",
+KyleS would like the thread icon dot to be brighter.
 
+btn_donate_SM.gif
+buttons/viewpost
 statusicon/wol_error
 misc/yellowcard_small
 misc/yellowcard
@@ -18,7 +18,6 @@ misc/expires
 statusicon/announcement_*
 
 buttons/subscribe
-buttons/viewpost
 misc/calendar_icon
 misc/birthday_small
 misc/subscribed_event
@@ -52,14 +51,13 @@ misc/question_icon
 statusicon/wol_*
 misc/userfield_edit
 
+Still need to figure out how to implement calendar_popup, it is added in JS.
+
 cross.png and tick.png used for registration errors, hardcoded into PHP
 ```
 
 **Style Changes**
 ```
-Add `margin: 0 10px;` to left forum icons on forum index.
-.tcat .inlineimg { vertical-align: text-bottom; } AND the collapse_alt ones on PM page.
-Add `vertical-align: baseline;` to lastpost image on right of forum index.
 Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
 Add space between input box and calendar_popup.svg.
 ```
