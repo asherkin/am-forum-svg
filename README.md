@@ -3,46 +3,41 @@
 **TODO**
 ```
 btn_donate_SM.gif
-misc/yellowcard_small
-misc/yellowcard
-misc/redcard_small
-misc/redcard
-misc/trashcan
-misc/moderated
 
-buttons/subscribe
-misc/calendar_icon
-misc/birthday_small
-misc/subscribed_event
-misc/calendar
-misc/progress
-misc/lightbox_progress
-buttons/sendtofriend
+misc/userfield_edit
+statusicon/wol_*
+misc/question_icon
+
 button/email
-button/sendpm
-button/home
 button/find
-misc/im_*
-misc/11x11progress
-poll/*
-buttons/reputation
+button/home
+button/sendpm
+buttons/addpoll
 buttons/edit
 buttons/forward
-buttons/reply_small*
-buttons/multiquote*
-buttons/quickreply
-gradients/gradient_tcat
-reputation?/reputation_*
-buttons/threadclosed
-buttons/newthread
-buttons/reply
-buttons/printer
-buttons/addpoll
 buttons/mode_*
+buttons/multiquote*
+buttons/newthread
+buttons/printer
+buttons/quickreply
+buttons/reply
+buttons/reply_small*
+buttons/reputation
+buttons/sendtofriend
+buttons/subscribe
+buttons/threadclosed
+gradients/gradient_tcat
+misc/11x11progress
+misc/birthday_small
+misc/calendar
+misc/calendar_icon
+misc/im_*
+misc/lightbox_progress
+misc/progress
+misc/subscribed_event
 misc/tree_*
-misc/question_icon
-statusicon/wol_*
-misc/userfield_edit
+poll/*
+reputation?/reputation_*
 
 Still need to figure out how to implement calendar_popup, it is added in JS.
 
@@ -54,6 +49,7 @@ cross.png and tick.png used for registration errors, hardcoded into PHP
 Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
 Add space between input box and calendar_popup.svg.
 remove inlineimg from quote (viewpost.svg)
+the large infraction cards are now used on the profile, change postbit to use small which can then be made whatever size fits nicely
 ```
 
 **Get All Images**
@@ -84,25 +80,31 @@ var imageMap = {
 	"/images/buttons/ip.gif": "/images/buttons/ip.svg",
 	"/images/buttons/lastpost.gif": "/images/buttons/lastpost.svg",
 	"/images/buttons/nuke.gif": "/images/buttons/nuke.svg",
+	"/images/buttons/redcard.gif": "/images/buttons/redcard.svg",
 	"/images/buttons/report.gif": "/images/buttons/report.svg",
  	"/images/buttons/sortasc.gif": "/images/buttons/sortasc.svg",
  	"/images/buttons/sortdesc.gif": "/images/buttons/sortdesc.svg",
 	"/images/buttons/unnuke.gif": "/images/buttons/unnuke.svg",
 	"/images/buttons/viewpost.gif": "/images/buttons/viewpost.svg",
+	"/images/buttons/yellowcard.gif": "/images/buttons/yellowcard.svg",
 	"/images/misc/am-banner.png": "/images/misc/am-banner.svg",
 	"/images/misc/birthday.gif": "/images/misc/birthday.svg",
 	"/images/misc/calendar_popup.png": "/images/misc/calendar_popup.svg",
 	"/images/misc/expires.gif": "/images/misc/expires.svg",
 	"/images/misc/menu_open.gif": "/images/misc/menu_open.svg",
 	"/images/misc/menu_open_usercss.gif": "/images/misc/menu_open_usercss.svg",
+ 	"/images/misc/moderated.gif": "/images/misc/moderated.svg",
  	"/images/misc/moderated_small.gif": "/images/misc/moderated_small.svg",
  	"/images/misc/multipage.gif": "/images/misc/multipage.svg",
  	"/images/misc/paperclip.gif": "/images/misc/paperclip.svg",
+ 	"/images/misc/redcard_small.gif": "/images/misc/redcard_small.svg",
 	"/images/misc/stats.gif": "/images/misc/stats.svg",
  	"/images/misc/sticky.gif": "/images/misc/sticky.svg",
  	"/images/misc/subscribed.gif": "/images/misc/subscribed.svg",
+ 	"/images/misc/trashcan.gif": "/images/misc/trashcan.svg",
  	"/images/misc/trashcan_small.gif": "/images/misc/trashcan_small.svg",
 	"/images/misc/whos_online.gif": "/images/misc/whos_online.svg",
+	"/images/misc/yellowcard_small.gif": "/images/misc/yellowcard_small.svg",
 	"/images/rating/rating_1.gif": "/images/rating/rating_1.svg",
 	"/images/rating/rating_2.gif": "/images/rating/rating_2.svg",
 	"/images/rating/rating_3.gif": "/images/rating/rating_3.svg",
