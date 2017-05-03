@@ -4,7 +4,6 @@
 ```
 btn_donate_SM.gif
 
-misc/userfield_edit
 statusicon/wol_*
 misc/question_icon
 
@@ -103,6 +102,7 @@ var imageMap = {
  	"/images/misc/subscribed.gif": "/images/misc/subscribed.svg",
  	"/images/misc/trashcan.gif": "/images/misc/trashcan.svg",
  	"/images/misc/trashcan_small.gif": "/images/misc/trashcan_small.svg",
+ 	"/images/misc/userfield_edit.gif": "/images/misc/userfield_edit.svg",
 	"/images/misc/whos_online.gif": "/images/misc/whos_online.svg",
 	"/images/misc/yellowcard_small.gif": "/images/misc/yellowcard_small.svg",
 	"/images/rating/rating_1.gif": "/images/rating/rating_1.svg",
