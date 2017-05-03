@@ -5,17 +5,12 @@
 KyleS would like the thread icon dot to be brighter.
 
 btn_donate_SM.gif
-buttons/viewpost
-statusicon/wol_error
 misc/yellowcard_small
 misc/yellowcard
 misc/redcard_small
 misc/redcard
 misc/trashcan
 misc/moderated
-misc/moderated_small
-misc/expires
-statusicon/announcement_*
 
 buttons/subscribe
 misc/calendar_icon
@@ -60,6 +55,7 @@ cross.png and tick.png used for registration errors, hardcoded into PHP
 ```
 Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
 Add space between input box and calendar_popup.svg.
+remove inlineimg from quote (viewpost.svg)
 ```
 
 **Get All Images**
@@ -94,11 +90,14 @@ var imageMap = {
  	"/images/buttons/sortasc.gif": "/images/buttons/sortasc.svg",
  	"/images/buttons/sortdesc.gif": "/images/buttons/sortdesc.svg",
 	"/images/buttons/unnuke.gif": "/images/buttons/unnuke.svg",
+	"/images/buttons/viewpost.gif": "/images/buttons/viewpost.svg",
 	"/images/misc/am-banner.png": "/images/misc/am-banner.svg",
 	"/images/misc/birthday.gif": "/images/misc/birthday.svg",
 	"/images/misc/calendar_popup.png": "/images/misc/calendar_popup.svg",
+	"/images/misc/expires.gif": "/images/misc/expires.svg",
 	"/images/misc/menu_open.gif": "/images/misc/menu_open.svg",
 	"/images/misc/menu_open_usercss.gif": "/images/misc/menu_open_usercss.svg",
+ 	"/images/misc/moderated_small.gif": "/images/misc/moderated_small.svg",
  	"/images/misc/multipage.gif": "/images/misc/multipage.svg",
  	"/images/misc/paperclip.gif": "/images/misc/paperclip.svg",
 	"/images/misc/stats.gif": "/images/misc/stats.svg",
@@ -111,6 +110,8 @@ var imageMap = {
 	"/images/rating/rating_3.gif": "/images/rating/rating_3.svg",
 	"/images/rating/rating_4.gif": "/images/rating/rating_4.svg",
 	"/images/rating/rating_5.gif": "/images/rating/rating_5.svg",
+	"/images/statusicon/announcement_new.gif": "/images/statusicon/announcement_new.svg",
+	"/images/statusicon/announcement_old.gif": "/images/statusicon/announcement_old.svg",
 	"/images/statusicon/forum_link.gif": "/images/statusicon/forum_link.svg",
 	"/images/statusicon/forum_new.gif": "/images/statusicon/forum_new.svg",
 	"/images/statusicon/forum_old.gif": "/images/statusicon/forum_old.svg",
@@ -144,6 +145,7 @@ var imageMap = {
 	"/images/statusicon/user_invisible.gif": "/images/statusicon/user_invisible.svg",
 	"/images/statusicon/user_offline.gif": "/images/statusicon/user_offline.svg",
 	"/images/statusicon/user_online.gif": "/images/statusicon/user_online.svg",
+	"/images/statusicon/wol_error.gif": "/images/statusicon/wol_error.svg",
 };
 Array.from(document.getElementsByTagName('img'))
 	.filter(i => i.src.substr(0, 30) === "https://forums.alliedmods.net/")
