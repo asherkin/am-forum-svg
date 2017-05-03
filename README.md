@@ -2,8 +2,6 @@
 
 **TODO**
 ```
-KyleS would like the thread icon dot to be brighter.
-
 btn_donate_SM.gif
 misc/yellowcard_small
 misc/yellowcard
