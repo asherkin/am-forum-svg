@@ -4,9 +4,6 @@
 ```
 btn_donate_SM.gif
 
-statusicon/wol_*
-misc/question_icon
-
 button/email
 button/find
 button/home
@@ -96,6 +93,7 @@ var imageMap = {
  	"/images/misc/moderated_small.gif": "/images/misc/moderated_small.svg",
  	"/images/misc/multipage.gif": "/images/misc/multipage.svg",
  	"/images/misc/paperclip.gif": "/images/misc/paperclip.svg",
+ 	"/images/misc/question_icon.gif": "/images/misc/question_icon.svg",
  	"/images/misc/redcard_small.gif": "/images/misc/redcard_small.svg",
 	"/images/misc/stats.gif": "/images/misc/stats.svg",
  	"/images/misc/sticky.gif": "/images/misc/sticky.svg",
@@ -146,6 +144,8 @@ var imageMap = {
 	"/images/statusicon/user_offline.gif": "/images/statusicon/user_offline.svg",
 	"/images/statusicon/user_online.gif": "/images/statusicon/user_online.svg",
 	"/images/statusicon/wol_error.gif": "/images/statusicon/wol_error.svg",
+	"/images/statusicon/wol_lockedout.gif": "/images/statusicon/wol_lockedout.svg",
+	"/images/statusicon/wol_nopermission.gif": "/images/statusicon/wol_nopermission.svg",
 };
 Array.from(document.getElementsByTagName('img'))
 	.filter(i => i.src.substr(0, 30) === "https://forums.alliedmods.net/")
