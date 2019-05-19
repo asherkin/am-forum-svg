@@ -4,24 +4,21 @@
 ```
 btn_donate_SM.gif
 
-button/email
-button/find
-button/home
-button/sendpm
+buttons/email
+buttons/find
+buttons/home
+buttons/sendpm
 buttons/addpoll
 buttons/edit
 buttons/forward
 buttons/mode_*
 buttons/multiquote*
-buttons/newthread
 buttons/printer
 buttons/quickreply
-buttons/reply
 buttons/reply_small*
 buttons/reputation
 buttons/sendtofriend
 buttons/subscribe
-buttons/threadclosed
 gradients/gradient_tcat
 misc/11x11progress
 misc/birthday_small
@@ -44,8 +41,7 @@ cross.png and tick.png used for registration errors, hardcoded into PHP
 ```
 Adjust vertical-align of post header buttons (post_old, edit, quote, reply etc).
 Add space between input box and calendar_popup.svg.
-remove inlineimg from quote (viewpost.svg)
-the large infraction cards are now used on the profile, change postbit to use small which can then be made whatever size fits nicely
+Re-evaluate width restriction on signatures. (and hide signatures from people with signatures hidden themselves)
 ```
 
 **Get All Images**
